@@ -15,210 +15,210 @@
         "siteName": {
             "modifier": [
                 {
-                    "modifier_location=male": "Černý",
-                    "modifier_location=female": "Černá",
-                    "modifier_location=it": "Černé"
+                    "masc": "Černý",
+                    "fem": "Černá",
+                    "neut": "Černé"
                 },
                 {
-                    "modifier_location=male": "Bílý",
-                    "modifier_location=female": "Bílá",
-                    "modifier_location=it": "Bílé"
+                    "masc": "Bílý",
+                    "fem": "Bílá",
+                    "neut": "Bílé"
                 },
                 {
-                    "modifier_location=male": "Zelený",
-                    "modifier_location=female": "Zelená",
-                    "modifier_location=it": "Zelené"
+                    "masc": "Zelený",
+                    "fem": "Zelená",
+                    "neut": "Zelené"
                 },
                 {
-                    "modifier_location=male": "Modrý",
-                    "modifier_location=female": "Modrá",
-                    "modifier_location=it": "Modré"
+                    "masc": "Modrý",
+                    "fem": "Modrá",
+                    "neut": "Modré"
                 },
                 {
-                    "modifier_location=male": "Červený",
-                    "modifier_location=female": "Červená",
-                    "modifier_location=it": "Červené"
+                    "masc": "Červený",
+                    "fem": "Červená",
+                    "neut": "Červené"
                 },
                 {
-                    "modifier_location=male": "Onyxový",
-                    "modifier_location=female": "Onyxová",
-                    "modifier_location=it": "Onyxové"
+                    "masc": "Onyxový",
+                    "fem": "Onyxová",
+                    "neut": "Onyxové"
                 },
                 {
-                    "modifier_location=male": "Smaragdový",
-                    "modifier_location=female": "Smaragdová",
-                    "modifier_location=it": "Smaragdové"
+                    "masc": "Smaragdový",
+                    "fem": "Smaragdová",
+                    "neut": "Smaragdové"
                 },
                 {
-                    "modifier_location=male": "Zarostlý",
-                    "modifier_location=female": "Zarostlá",
-                    "modifier_location=it": "Zarostlé"
+                    "masc": "Zarostlý",
+                    "fem": "Zarostlá",
+                    "neut": "Zarostlé"
                 },
                 {
-                    "modifier_location=male": "Skrytý",
-                    "modifier_location=female": "Skrytá",
-                    "modifier_location=it": "Skryté"
+                    "masc": "Skrytý",
+                    "fem": "Skrytá",
+                    "neut": "Skryté"
                 },
                 {
-                    "modifier_location=male": "Zuhelnatělý",
-                    "modifier_location=female": "Zuhelnatělá",
-                    "modifier_location=it": "Zuhelnatělé"
+                    "masc": "Zuhelnatělý",
+                    "fem": "Zuhelnatělá",
+                    "neut": "Zuhelnatělé"
                 },
                 {
-                    "modifier_location=male": "Spálený",
-                    "modifier_location=female": "Spálená",
-                    "modifier_location=it": "Spálené"
+                    "masc": "Spálený",
+                    "fem": "Spálená",
+                    "neut": "Spálené"
                 },
                 {
-                    "modifier_location=male": "Ztracený",
-                    "modifier_location=female": "Ztracená",
-                    "modifier_location=it": "Ztracené"
+                    "masc": "Ztracený",
+                    "fem": "Ztracená",
+                    "neut": "Ztracené"
                 },
                 {
-                    "modifier_location=male": "Starý",
-                    "modifier_location=female": "Stará",
-                    "modifier_location=it": "Staré"
+                    "masc": "Starý",
+                    "fem": "Stará",
+                    "neut": "Staré"
                 },
                 {
-                    "modifier_location=male": "Zlatý",
-                    "modifier_location=female": "Zlatá",
-                    "modifier_location=it": "Zlaté"
+                    "masc": "Zlatý",
+                    "fem": "Zlatá",
+                    "neut": "Zlaté"
                 },
                 {
-                    "modifier_location=male": "Krvavý",
-                    "modifier_location=female": "Krvavá",
-                    "modifier_location=it": "Krvavé"
+                    "masc": "Krvavý",
+                    "fem": "Krvavá",
+                    "neut": "Krvavé"
                 },
                 {
-                    "modifier_location=male": "Vdoví",
-                    "modifier_location=female": "Vdoví",
-                    "modifier_location=it": "Vdoví"
+                    "masc": "Vdoví",
+                    "fem": "Vdoví",
+                    "neut": "Vdoví"
                 },
                 {
-                    "modifier_location=male": "Zarostlý",
-                    "modifier_location=female": "Zarostlá",
-                    "modifier_location=it": "Zarostlé"
+                    "masc": "Zarostlý",
+                    "fem": "Zarostlá",
+                    "neut": "Zarostlé"
                 },
                 {
-                    "modifier_location=male": "Kostěný",
-                    "modifier_location=female": "Kostěná",
-                    "modifier_location=it": "Kostěné"
+                    "masc": "Kostěný",
+                    "fem": "Kostěná",
+                    "neut": "Kostěné"
                 },
                 {
-                    "modifier_location=male": "Suchý",
-                    "modifier_location=female": "Suchá",
-                    "modifier_location=it": "Suché"
+                    "masc": "Suchý",
+                    "fem": "Suchá",
+                    "neut": "Suché"
                 },
                 {
-                    "modifier_location=male": "Promočený",
-                    "modifier_location=female": "Promočená",
-                    "modifier_location=it": "Promočené"
+                    "masc": "Promočený",
+                    "fem": "Promočená",
+                    "neut": "Promočené"
                 }
             ],
             "location": [
                 {
-                    "location": "Pařez",
-                    "context": "male"
+                    "name": "Pařez",
+                    "context": "masc"
                 },
                 {
-                    "location": "Strom",
-                    "context": "male"
+                    "name": "Strom",
+                    "context": "masc"
                 },
                 {
-                    "location": "Dub",
-                    "context": "male"
+                    "name": "Dub",
+                    "context": "masc"
                 },
                 {
-                    "location": "Borovice",
-                    "context": "female"
+                    "name": "Borovice",
+                    "context": "fem"
                 },
                 {
-                    "location": "Věžička",
-                    "context": "female"
+                    "name": "Věžička",
+                    "context": "fem"
                 },
                 {
-                    "location": "Věž",
-                    "context": "female"
+                    "name": "Věž",
+                    "context": "fem"
                 },
                 {
-                    "location": "Věž",
-                    "context": "female"
+                    "name": "Věž",
+                    "context": "fem"
                 },
                 {
-                    "location": "Příkop",
-                    "context": "male"
+                    "name": "Příkop",
+                    "context": "masc"
                 },
                 {
-                    "location": "Hrad",
-                    "context": "male"
+                    "name": "Hrad",
+                    "context": "masc"
                 },
                 {
-                    "location": "Pevnost",
-                    "context": "female"
+                    "name": "Pevnost",
+                    "context": "fem"
                 },
                 {
-                    "location": "Palác",
-                    "context": "male"
+                    "name": "Palác",
+                    "context": "masc"
                 },
                 {
-                    "location": "Hrob",
-                    "context": "male"
+                    "name": "Hrob",
+                    "context": "masc"
                 },
                 {
-                    "location": "Hrobka",
-                    "context": "female"
+                    "name": "Hrobka",
+                    "context": "fem"
                 },
                 {
-                    "location": "Krypta",
-                    "context": "female"
+                    "name": "Krypta",
+                    "context": "fem"
                 },
                 {
-                    "location": "Pohřebiště",
-                    "context": "it"
+                    "name": "Pohřebiště",
+                    "context": "neut"
                 },
                 {
-                    "location": "Doupě",
-                    "context": "it"
+                    "name": "Doupě",
+                    "context": "neut"
                 },
                 {
-                    "location": "Nora",
-                    "context": "female"
+                    "name": "Nora",
+                    "context": "fem"
                 },
                 {
-                    "location": "Brloh",
-                    "context": "male"
+                    "name": "Brloh",
+                    "context": "masc"
                 },
                 {
-                    "location": "Tunel",
-                    "context": "male"
+                    "name": "Tunel",
+                    "context": "masc"
                 },
                 {
-                    "location": "Díra",
-                    "context": "female"
+                    "name": "Díra",
+                    "context": "fem"
                 },
                 {
-                    "location": "Jeskyně",
-                    "context": "female"
+                    "name": "Jeskyně",
+                    "context": "fem"
                 },
                 {
-                    "location": "Dutina",
-                    "context": "female"
+                    "name": "Dutina",
+                    "context": "fem"
                 },
                 {
-                    "location": "Přístřešek",
-                    "context": "male"
+                    "name": "Přístřešek",
+                    "context": "masc"
                 },
                 {
-                    "location": "Chrám",
-                    "context": "male"
+                    "name": "Chrám",
+                    "context": "masc"
                 },
                 {
-                    "location": "Útočiště",
-                    "context": "it"
+                    "name": "Útočiště",
+                    "context": "neut"
                 },
                 {
-                    "location": "Svatyně",
-                    "context": "female"
+                    "name": "Svatyně",
+                    "context": "fem"
                 }
             ]
         },
@@ -226,244 +226,255 @@
             "format": " - {{- construction}} {{- ruinAction}} {{- ruin}}. {{- inhabitant}} {{- inhabitantAction}} {{- inhabitantGoal}}. {{- secretHidden}} {{- secret}}.",
             "construction": [
                 {
-                    "construction": "<b>starověký chrám</b> netopýřího kultu",
-                    "context": "male"
+                    "name": "<b>starověký chrám</b> netopýřího kultu",
+                    "context": "masc"
                 },
                 {
-                    "construction": "dlouho opuštěná <b>strážní věž</b>",
-                    "context": "female"
+                    "name": "dlouho opuštěná <b>strážní věž</b>",
+                    "context": "fem"
                 },
                 {
-                    "construction": "šlechticův <b>venkovský statek</b>",
-                    "context": "male"
+                    "name": "šlechticův <b>venkovský statek</b>",
+                    "context": "masc"
                 },
                 {
-                    "construction": "tajný <b>sklad zásob na zimu</b>",
-                    "context": "male"
+                    "name": "tajný <b>sklad zásob na zimu</b>",
+                    "context": "masc"
                 },
                 {
-                    "construction": "starověké <b>myší pohřebiště</b>",
-                    "context": "it"
+                    "name": "starověké <b>myší pohřebiště</b>",
+                    "context": "neut"
                 },
                 {
-                    "construction": "<b>nora</b> vykopaná králíky nebo liškami",
-                    "context": "female"
+                    "name": "<b>nora</b> vykopaná králíky nebo liškami",
+                    "context": "fem"
                 },
                 {
-                    "construction": "<b>lidský dům</b> nebo jiná budova",
-                    "context": "female"
+                    "name": "<b>lidský dům</b> nebo jiná budova",
+                    "context": "fem"
                 },
                 {
-                    "construction": "série kanalizačních nebo drenážních <b>trubek</b>",
-                    "context": "female"
+                    "name": "série kanalizačních nebo drenážních <b>trubek</b>",
+                    "context": "fem"
                 },
                 {
-                    "construction": "série klaustrofobních <b>tunelů</b> vykopaných mravenci",
-                    "context": "female"
+                    "name": "série klaustrofobních <b>tunelů</b> vykopaných mravenci",
+                    "context": "fem"
                 },
                 {
-                    "construction": "<b>mohutný strom</b> vydlabaný myšmi",
-                    "context": "male"
+                    "name": "<b>mohutný strom</b> vydlabaný myšmi",
+                    "context": "masc"
                 },
                 {
-                    "construction": "<b>kouzelnická věž</b>",
-                    "context": "female"
+                    "name": "<b>kouzelnická věž</b>",
+                    "context": "fem"
                 },
                 {
-                    "construction": "<b>mlýn na obilí</b> nedaleké osady",
-                    "context": "male"
+                    "name": "<b>mlýn na obilí</b> nedaleké osady",
+                    "context": "masc"
                 },
                 {
-                    "construction": "<b>hnízdo krysího krále</b>",
-                    "context": "it"
+                    "name": "<b>hnízdo krysího krále</b>",
+                    "context": "neut"
                 },
                 {
-                    "construction": "<b>kostra</b> velkého zvířete",
-                    "context": "female"
+                    "name": "<b>kostra</b> velkého zvířete",
+                    "context": "fem"
                 },
                 {
-                    "construction": "čarodějnická <b>akademie</b>",
-                    "context": "female"
+                    "name": "čarodějnická <b>akademie</b>",
+                    "context": "fem"
                 },
                 {
-                    "construction": "<b>brána</b> do říše víl",
-                    "context": "female"
+                    "name": "<b>brána</b> do říše víl",
+                    "context": "fem"
                 },
                 {
-                    "construction": "hluboký <b>důl</b>",
-                    "context": "male"
+                    "name": "hluboký <b>důl</b>",
+                    "context": "masc"
                 },
                 {
-                    "construction": "<b>úkryt</b> banditů",
-                    "context": "male"
+                    "name": "<b>úkryt</b> banditů",
+                    "context": "masc"
                 },
                 {
-                    "construction": "přírodní <b>jeskyně</b>",
-                    "context": "female"
+                    "name": "přírodní <b>jeskyně</b>",
+                    "context": "fem"
                 },
                 {
-                    "construction": "myší <b>osada</b>",
-                    "context": "female"
+                    "name": "myší <b>osada</b>",
+                    "context": "fem"
                 }
             ],
             "ruinAction": [
                 {
-                    "ruinAction_construction=male": "zničen",
-                    "ruinAction_construction=female": "zničena",
-                    "ruinAction_construction=it": "zničeno",
+                    "name": {
+                        "masc": "zničen",
+                        "fem": "zničena",
+                        "neut": "zničeno"
+                    },
                     "context": "damage"
                 },
                 {
-                    "ruinAction_construction=male": "zdevastován",
-                    "ruinAction_construction=female": "zdevastovaná",
-                    "ruinAction_construction=it": "zdevastované",
+                    "name": {
+                        "masc": "zdevastován",
+                        "fem": "zdevastovaná",
+                        "neut": "zdevastované"
+                    },
                     "context": "damage"
                 },
                 {
-                    "ruinAction": "v troskách",
+                    "name": "v troskách",
                     "context": "because"
                 },
                 {
-                    "ruinAction_construction=male": "znesvěcen",
-                    "ruinAction_construction=female": "znesvěcena",
-                    "ruinAction_construction=it": "znesvěcené",
+                    "name": {
+                        "masc": "znesvěcen",
+                        "fem": "znesvěcena",
+                        "neut": "znesvěcené"
+                    },
                     "context": "damage"
                 },
                 {
-                    "ruinAction_construction=male": "nechaný na pospas živlům",
-                    "ruinAction_construction=female": "nechaná na pospas živlům",
-                    "ruinAction_construction=it": "necháno na pospas živlům",
+                    "name": {
+                        "masc": "nechaný na pospas živlům",
+                        "fem": "nechaná na pospas živlům",
+                        "neut": "necháno na pospas živlům"
+                    },
                     "context": "because"
                 },
                 {
-                    "ruinAction_construction=male": "jenž málem zanikl",
-                    "ruinAction_construction=female": "jenž málem zanikla",
-                    "ruinAction_construction=it": "jenž málem zaniklo",
+                    "name": {
+                        "masc": "jenž málem zanikl",
+                        "fem": "jenž málem zanikla",
+                        "neut": "jenž málem zaniklo"
+                    },
                     "context": "because"
                 },
                 {
-                    "ruinAction_construction=male": "skoro zničen",
-                    "ruinAction_construction=female": "skoro zničená",
-                    "ruinAction_construction=it": "skoro zničeno"
+                    "name": {
+                        "masc": "skoro zničen",
+                        "fem": "skoro zničená",
+                        "neut": "skoro zničeno"
+                    },
+                    "context": "damage"
                 },
                 {
-                    "ruinAction_construction=male": "poškozen",
-                    "ruinAction_construction=female": "poškozena",
-                    "ruinAction_construction=it": "poškozeno",
+                    "name": {
+                        "masc": "poškozen",
+                        "fem": "poškozena",
+                        "neut": "poškozeno"
+                    },
                     "context": "damage"
                 }
             ],
             "ruin": [
                 {
-                    "ruin": "<b>záplavami</b>",
-                    "ruin_ruinAction=because": "kvůli <b>záplavám</b>"
+                    "damage": "<b>záplavami</b>",
+                    "because": "kvůli <b>záplavám</b>"
                 },
                 {
-                    "ruin": "<b>magickým neštěstím</b>",
-                    "ruin_ruinAction=because": "díky <b>magickému neštěstí</b>"
+                    "damage": "<b>magickým neštěstím</b>",
+                    "because": "díky <b>magickému neštěstí</b>"
                 },
                 {
-                    "ruin": "<b>stářím</b> a <b>hnilobou</b>",
-                    "ruin_ruinAction=because": "kvůli <b>stáří</b> a <b>hnilobě</b>"
+                    "damage": "<b>stářím</b> a <b>hnilobou</b>",
+                    "because": "kvůli <b>stáří</b> a <b>hnilobě</b>"
                 },
                 {
-                    "ruin": "<b>lidskou činností</b>",
-                    "ruin_ruinAction=because": "kvůli <b>lidské činnosti</b>"
+                    "damage": "<b>lidskou činností</b>",
+                    "because": "kvůli <b>lidské činnosti</b>"
                 },
                 {
-                    "ruin": "<b>plísní</b>",
-                    "ruin_ruinAction=because": "kvůli <b>plísni</b>"
+                    "damage": "<b>plísní</b>",
+                    "because": "kvůli <b>plísni</b>"
                 },
                 {
-                    "ruin": "<b>přesunem mezi sférami</b>",
-                    "ruin_ruinAction=because": "kvůli <b>přesunu mezi sférami</b>"
+                    "damage": "<b>přesunem mezi sférami</b>",
+                    "because": "kvůli <b>přesunu mezi sférami</b>"
                 },
                 {
-                    "ruin": "<b>útokem</b> velké šelmy",
-                    "ruin_ruinAction=because": "kvůli <b>útoku</b> velké šelmy"
+                    "damage": "<b>útokem</b> velké šelmy",
+                    "because": "kvůli <b>útoku</b> velké šelmy"
                 },
                 {
-                    "ruin": "ničivou <b>bouří</b>",
-                    "ruin_ruinAction=because": "kvůli ničivé <b>bouři</b>"
+                    "damage": "ničivou <b>bouří</b>",
+                    "because": "kvůli ničivé <b>bouři</b>"
                 },
                 {
-                    "ruin": "<b>strašením duchů</b>",
-                    "ruin_ruinAction=because": "kvůli <b>strašidelným duchům</b>",
-                    "ruin_ruinAction=damage": "<b>strašidelnými duchy</b>"
+                    "damage": "<b>strašidelnými duchy</b>",
+                    "because": "kvůli <b>strašidelným duchům</b>"
                 },
                 {
-                    "ruin": "záhadným <b>odchodem obyvatel</b>",
-                    "ruin_ruinAction=because": "kvůli záhadnému <b>odchodu obyvatel</b>",
-                    "ruin_ruinAction=damage": "při záhadném <b>odchodu obyvatel</b>"
+                    "damage": "při záhadném <b>odchodu obyvatel</b>",
+                    "because": "kvůli záhadnému <b>odchodu obyvatel</b>"
                 },
                 {
-                    "ruin": "<b>spory mezi obyvateli</b>",
-                    "ruin_ruinAction=because": "kvůli <b>sporům mezi obyvateli</b>",
-                    "ruin_ruinAction=damage": "při <b>sporech mezi obyvateli</b>"
+                    "damage": "při <b>sporech mezi obyvateli</b>",
+                    "because": "kvůli <b>sporům mezi obyvateli</b>"
                 },
                 {
-                    "ruin": "<b>chorobou</b>",
-                    "ruin_ruinAction=because": "kvůli <b>šířící se chorobě</b>",
-                    "ruin_ruinAction=damage": "<b>nemocnými obyvateli</b>"
+                    "damage": "<b>nemocnými obyvateli</b>",
+                    "because": "kvůli <b>šířící se chorobě</b>"
                 }
             ],
             "inhabitant": [
                 {
-                    "inhabitant": "Šílené nebo zoufalé myši",
-                    "context": "many"
+                    "name": "Šílené nebo zoufalé myši",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Magicky změněné myši",
-                    "context": "many"
+                    "name": "Magicky změněné myši",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Krysí bandité",
-                    "context": "many"
+                    "name": "Krysí bandité",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Bytosti ze vzdálené země",
-                    "context": "many"
+                    "name": "Bytosti ze vzdálené země",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Podivně změnění původní obyvatelé",
-                    "context": "many"
+                    "name": "Podivně změnění původní obyvatelé",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Přízrační duchové",
-                    "context": "many"
+                    "name": "Přízrační duchové",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Předsunutá vílí hlídka",
-                    "context": "many"
+                    "name": "Předsunutá vílí hlídka",
+                    "context": "plural"
                 },
                 {
-                    "inhabitant": "Had ve špatné náladě",
-                    "context": "one"
+                    "name": "Had ve špatné náladě",
+                    "context": "masc"
                 },
                 {
-                    "inhabitant": "Hmyzí zamoření",
-                    "context": "one"
+                    "name": "Hmyzí zamoření",
+                    "context": "neut"
                 },
                 {
-                    "inhabitant": "Kočičí pán a jeho služebníci",
-                    "context": "many"
+                    "name": "Kočičí pán a jeho služebníci",
+                    "context": "plural"
                 }
             ],
             "inhabitantAction": [
                 {
-                    "inhabitantAction_inhabitant=one": "tu hledá",
-                    "inhabitantAction": "tu hledají"
+                    "masc": "tu hledá",
+                    "fem": "tu hledá",
+                    "neut": "tu hledá",
+                    "plural": "tu hledají"
                 },
+                "tu chrání",
                 {
-                    "inhabitantAction": "tu chrání"
+                    "masc": "tu hlídá",
+                    "fem": "tu hlídá",
+                    "neut": "tu hlídá",
+                    "plural": "tu hlídají"
                 },
-                {
-                    "inhabitantAction_inhabitant=one": "tu hlídá",
-                    "inhabitantAction": "tu hlídají"
-                },
-                {
-                    "inhabitantAction": "se tu snaží najít"
-                }
+                "se tu snaží najít"
             ],
             "inhabitantGoal": [
                 "<b>bezpečné místo</b> k životu nebo úkrytu",

@@ -1,6 +1,4 @@
 {
-    "background": "Původ",
-    "birthsign": "Rodné znamení",
     "title": "Chrabrý myší dobrodruh...",
     "pageTitle": "Vytvoř myš",
     "ui": {
@@ -39,8 +37,8 @@
         "backgrounds": [
             {
                 "title": {
-                    "background_firstName=male": "Pokusný myšák",
-                    "background": "Pokusná myš"
+                    "masc": "Pokusný myšák",
+                    "fem": "Pokusná myš"
                 },
                 "items": [
                     {
@@ -71,8 +69,8 @@
             },
             {
                 "title": {
-                    "background_firstName=male": "Uprchlík z klece",
-                    "background": "Uprchlice z klece"
+                    "masc": "Uprchlík z klece",
+                    "fem": "Uprchlice z klece"
                 },
                 "items": [
                     {
@@ -86,8 +84,8 @@
             },
             {
                 "title": {
-                    "background_firstName=male": "Čaroděj",
-                    "background": "Čarodějnice"
+                    "masc": "Čaroděj",
+                    "fem": "Čarodějnice"
                 },
                 "items": [
                     {
@@ -128,8 +126,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Žebravá kněžka",
-                    "background": "Žebravý kněz"
+                    "masc": "Žebravý kněz",
+                    "fem": "Žebravá kněžka"
                 },
                 "items": [
                     {
@@ -167,8 +165,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Rybářka",
-                    "background": "Rybář"
+                    "masc": "Rybář",
+                    "fem": "Rybářka"
                 },
                 "items": [
                     {
@@ -183,8 +181,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Kovářka",
-                    "background": "Kovář"
+                    "masc": "Kovář",
+                    "fem": "Kovářka"
                 },
                 "items": [
                     {
@@ -224,8 +222,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Členka netopýřího kultu",
-                    "background": "Člen netopýřího kultu"
+                    "masc": "Člen netopýřího kultu",
+                    "fem": "Členka netopýřího kultu"
                 },
                 "items": [
                     {
@@ -252,8 +250,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Sběračka odpadků",
-                    "background": "Sběrač odpadků"
+                    "masc": "Sběrač odpadků",
+                    "fem": "Sběračka odpadků"
                 },
                 "items": [
                     {
@@ -316,8 +314,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Vlaštovkářka",
-                    "background": "Vlaštovkář"
+                    "masc": "Vlaštovkář",
+                    "fem": "Vlaštovkářka"
                 },
                 "items": [
                     {
@@ -355,8 +353,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Pěstitelka hub",
-                    "background": "Pěstitel hub"
+                    "masc": "Pěstitel hub",
+                    "fem": "Pěstitelka hub"
                 },
                 "items": [
                     {
@@ -369,8 +367,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Stavitelka hrází",
-                    "background": "Stavitel hrází"
+                    "masc": "Stavitel hrází",
+                    "fem": "Stavitelka hrází"
                 },
                 "items": [
                     {
@@ -394,8 +392,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Vykradačka pastiček",
-                    "background": "Vykradač pastiček"
+                    "masc": "Vykradač pastiček",
+                    "fem": "Vykradačka pastiček"
                 },
                 "items": [
                     {
@@ -420,8 +418,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Pěstitelka obilí",
-                    "background": "Pěstitel obilí"
+                    "masc": "Pěstitel obilí",
+                    "fem": "Pěstitelka obilí"
                 },
                 "items": [
                     {
@@ -459,8 +457,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Hazardní hráčka",
-                    "background": "Hazardní hráč"
+                    "masc": "Hazardní hráč",
+                    "fem": "Hazardní hráčka"
                 },
                 "items": [
                     {
@@ -473,8 +471,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Sběračka mízy",
-                    "background": "Sběrač mízy"
+                    "masc": "Sběrač mízy",
+                    "fem": "Sběračka mízy"
                 },
                 "items": [
                     {
@@ -487,8 +485,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Včelařka",
-                    "background": "Včelař"
+                    "masc": "Včelař",
+                    "fem": "Včelařka"
                 },
                 "items": [
                     {
@@ -501,8 +499,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Knihovnice",
-                    "background": "Knihovník"
+                    "masc": "Knihovník",
+                    "fem": "Knihovnice"
                 },
                 "items": [
                     {
@@ -515,8 +513,8 @@
             },
             {
                 "title": {
-                    "background_firstName=female": "Zchudlá šlechtična",
-                    "background": "Zchudlý šlechtic"
+                    "masc": "Zchudlý šlechtic",
+                    "fem": "Zchudlá šlechtična"
                 },
                 "items": [
                     {
@@ -530,537 +528,537 @@
         ],
         "firstNames": [
             {
-                "firstName": "Ada",
-                "context": "female"
+                "name": "Ada",
+                "context": "fem"
             },
             {
-                "firstName": "Agáta",
-                "context": "female"
+                "name": "Agáta",
+                "context": "fem"
             },
             {
-                "firstName": "Akácie",
-                "context": "female"
+                "name": "Akácie",
+                "context": "fem"
             },
             {
-                "firstName": "Aloe",
-                "context": "female"
+                "name": "Aloe",
+                "context": "fem"
             },
             {
-                "firstName": "Ambrož",
-                "context": "male"
+                "name": "Ambrož",
+                "context": "masc"
             },
             {
-                "firstName": "Anežka",
-                "context": "female"
+                "name": "Anežka",
+                "context": "fem"
             },
             {
-                "firstName": "Anýz",
-                "context": "male"
+                "name": "Anýz",
+                "context": "masc"
             },
             {
-                "firstName": "Apríl",
-                "context": "male"
+                "name": "Apríl",
+                "context": "masc"
             },
             {
-                "firstName": "Astra",
-                "context": "female"
+                "name": "Astra",
+                "context": "fem"
             },
             {
-                "firstName": "Augustín",
-                "context": "male"
+                "name": "Augustín",
+                "context": "masc"
             },
             {
-                "firstName": "Azalka",
-                "context": "female"
+                "name": "Azalka",
+                "context": "fem"
             },
             {
-                "firstName": "Bazalka",
-                "context": "female"
+                "name": "Bazalka",
+                "context": "fem"
             },
             {
-                "firstName": "Berylie",
-                "context": "female"
+                "name": "Berylie",
+                "context": "fem"
             },
             {
-                "firstName": "Bobek",
-                "context": "male"
+                "name": "Bobek",
+                "context": "masc"
             },
             {
-                "firstName": "Bodlák",
-                "context": "male"
+                "name": "Bodlák",
+                "context": "masc"
             },
             {
-                "firstName": "Bříz",
-                "context": "male"
+                "name": "Bříz",
+                "context": "masc"
             },
             {
-                "firstName": "Čedar",
-                "context": "male"
+                "name": "Čedar",
+                "context": "masc"
             },
             {
-                "firstName": "Čekanka",
-                "context": "female"
+                "name": "Čekanka",
+                "context": "fem"
             },
             {
-                "firstName": "Devětsil",
-                "context": "male"
+                "name": "Devětsil",
+                "context": "masc"
             },
             {
-                "firstName": "Edmund",
-                "context": "male"
+                "name": "Edmund",
+                "context": "masc"
             },
             {
-                "firstName": "Eidam",
-                "context": "male"
+                "name": "Eidam",
+                "context": "masc"
             },
             {
-                "firstName": "Elza",
-                "context": "female"
+                "name": "Elza",
+                "context": "fem"
             },
             {
-                "firstName": "Emil",
-                "context": "male"
+                "name": "Emil",
+                "context": "masc"
             },
             {
-                "firstName": "Erina",
-                "context": "female"
+                "name": "Erina",
+                "context": "fem"
             },
             {
-                "firstName": "Estragon",
-                "context": "male"
+                "name": "Estragon",
+                "context": "masc"
             },
             {
-                "firstName": "Fenykl",
-                "context": "male"
+                "name": "Fenykl",
+                "context": "masc"
             },
             {
-                "firstName": "Fialka",
-                "context": "female"
+                "name": "Fialka",
+                "context": "fem"
             },
             {
-                "firstName": "Filip",
-                "context": "male"
+                "name": "Filip",
+                "context": "masc"
             },
             {
-                "firstName": "Františka",
-                "context": "female"
+                "name": "Františka",
+                "context": "fem"
             },
             {
-                "firstName": "Gouda",
-                "context": "male"
+                "name": "Gouda",
+                "context": "masc"
             },
             {
-                "firstName": "Gouda",
-                "context": "female"
+                "name": "Gouda",
+                "context": "fem"
             },
             {
-                "firstName": "Grácie",
-                "context": "female"
+                "name": "Grácie",
+                "context": "fem"
             },
             {
-                "firstName": "Gvendolína",
-                "context": "female"
+                "name": "Gvendolína",
+                "context": "fem"
             },
             {
-                "firstName": "Habrovec",
-                "context": "male"
+                "name": "Habrovec",
+                "context": "masc"
             },
             {
-                "firstName": "Háta",
-                "context": "male"
+                "name": "Háta",
+                "context": "masc"
             },
             {
-                "firstName": "Hložek",
-                "context": "male"
+                "name": "Hložek",
+                "context": "masc"
             },
             {
-                "firstName": "Horácio",
-                "context": "male"
+                "name": "Horácio",
+                "context": "masc"
             },
             {
-                "firstName": "Hyacint",
-                "context": "male"
+                "name": "Hyacint",
+                "context": "masc"
             },
             {
-                "firstName": "Iris",
-                "context": "female"
+                "name": "Iris",
+                "context": "fem"
             },
             {
-                "firstName": "Jalovec",
-                "context": "male"
+                "name": "Jalovec",
+                "context": "masc"
             },
             {
-                "firstName": "Janek",
-                "context": "male"
+                "name": "Janek",
+                "context": "masc"
             },
             {
-                "firstName": "Jasan",
-                "context": "male"
+                "name": "Jasan",
+                "context": "masc"
             },
             {
-                "firstName": "Jaspis",
-                "context": "male"
+                "name": "Jaspis",
+                "context": "masc"
             },
             {
-                "firstName": "Jeřabinka",
-                "context": "female"
+                "name": "Jeřabinka",
+                "context": "fem"
             },
             {
-                "firstName": "Jílovec",
-                "context": "male"
+                "name": "Jílovec",
+                "context": "masc"
             },
             {
-                "firstName": "Jiřička",
-                "context": "female"
+                "name": "Jiřička",
+                "context": "fem"
             },
             {
-                "firstName": "Karmína",
-                "context": "female"
+                "name": "Karmína",
+                "context": "fem"
             },
             {
-                "firstName": "Klára",
-                "context": "female"
+                "name": "Klára",
+                "context": "fem"
             },
             {
-                "firstName": "Kmínek",
-                "context": "male"
+                "name": "Kmínek",
+                "context": "masc"
             },
             {
-                "firstName": "Konrád",
-                "context": "male"
+                "name": "Konrád",
+                "context": "masc"
             },
             {
-                "firstName": "Kostřava",
-                "context": "female"
+                "name": "Kostřava",
+                "context": "fem"
             },
             {
-                "firstName": "Krokus",
-                "context": "male"
+                "name": "Krokus",
+                "context": "masc"
             },
             {
-                "firstName": "Kuklík",
-                "context": "male"
+                "name": "Kuklík",
+                "context": "masc"
             },
             {
-                "firstName": "Květa",
-                "context": "female"
+                "name": "Květa",
+                "context": "fem"
             },
             {
-                "firstName": "Levandule",
-                "context": "female"
+                "name": "Levandule",
+                "context": "fem"
             },
             {
-                "firstName": "Lilie",
-                "context": "female"
+                "name": "Lilie",
+                "context": "fem"
             },
             {
-                "firstName": "Líska",
-                "context": "female"
+                "name": "Líska",
+                "context": "fem"
             },
             {
-                "firstName": "Lorenz",
-                "context": "male"
+                "name": "Lorenz",
+                "context": "masc"
             },
             {
-                "firstName": "Magnolie",
-                "context": "female"
+                "name": "Magnolie",
+                "context": "fem"
             },
             {
-                "firstName": "Majoránka",
-                "context": "female"
+                "name": "Majoránka",
+                "context": "fem"
             },
             {
-                "firstName": "Makovec",
-                "context": "male"
+                "name": "Makovec",
+                "context": "masc"
             },
             {
-                "firstName": "Máslena",
-                "context": "female"
+                "name": "Máslena",
+                "context": "fem"
             },
             {
-                "firstName": "Meduňka",
-                "context": "female"
+                "name": "Meduňka",
+                "context": "fem"
             },
             {
-                "firstName": "Měsíček",
-                "context": "male"
+                "name": "Měsíček",
+                "context": "masc"
             },
             {
-                "firstName": "Muškát",
-                "context": "male"
+                "name": "Muškát",
+                "context": "masc"
             },
             {
-                "firstName": "Myrta",
-                "context": "female"
+                "name": "Myrta",
+                "context": "fem"
             },
             {
-                "firstName": "Niva",
-                "context": "female"
+                "name": "Niva",
+                "context": "fem"
             },
             {
-                "firstName": "Nora",
-                "context": "female"
+                "name": "Nora",
+                "context": "fem"
             },
             {
-                "firstName": "Okřál",
-                "context": "male"
+                "name": "Okřál",
+                "context": "masc"
             },
             {
-                "firstName": "Oliver",
-                "context": "male"
+                "name": "Oliver",
+                "context": "masc"
             },
             {
-                "firstName": "Olivie",
-                "context": "female"
+                "name": "Olivie",
+                "context": "fem"
             },
             {
-                "firstName": "Olša",
-                "context": "male"
+                "name": "Olša",
+                "context": "masc"
             },
             {
-                "firstName": "Opál",
-                "context": "male"
+                "name": "Opál",
+                "context": "masc"
             },
             {
-                "firstName": "Otýlie",
-                "context": "female"
+                "name": "Otýlie",
+                "context": "fem"
             },
             {
-                "firstName": "Pelyňka",
-                "context": "female"
+                "name": "Pelyňka",
+                "context": "fem"
             },
             {
-                "firstName": "Pepřík",
-                "context": "male"
+                "name": "Pepřík",
+                "context": "masc"
             },
             {
-                "firstName": "Perla",
-                "context": "female"
+                "name": "Perla",
+                "context": "fem"
             },
             {
-                "firstName": "Rípčíp",
-                "context": "male"
+                "name": "Rípčíp",
+                "context": "masc"
             },
             {
-                "firstName": "Rokfór",
-                "context": "male"
+                "name": "Rokfór",
+                "context": "masc"
             },
             {
-                "firstName": "Routa",
-                "context": "male"
+                "name": "Routa",
+                "context": "masc"
             },
             {
-                "firstName": "Rozmarín",
-                "context": "male"
+                "name": "Rozmarín",
+                "context": "masc"
             },
             {
-                "firstName": "Rulík",
-                "context": "male"
+                "name": "Rulík",
+                "context": "masc"
             },
             {
-                "firstName": "Řebřík",
-                "context": "male"
+                "name": "Řebřík",
+                "context": "masc"
             },
             {
-                "firstName": "Sedmikráska",
-                "context": "female"
+                "name": "Sedmikráska",
+                "context": "fem"
             },
             {
-                "firstName": "Slídie",
-                "context": "female"
+                "name": "Slídie",
+                "context": "fem"
             },
             {
-                "firstName": "Smaragd",
-                "context": "male"
+                "name": "Smaragd",
+                "context": "masc"
             },
             {
-                "firstName": "Svízel",
-                "context": "male"
+                "name": "Svízel",
+                "context": "masc"
             },
             {
-                "firstName": "Šafrán",
-                "context": "male"
+                "name": "Šafrán",
+                "context": "masc"
             },
             {
-                "firstName": "Šimon",
-                "context": "male"
+                "name": "Šimon",
+                "context": "masc"
             },
             {
-                "firstName": "Šípek",
-                "context": "male"
+                "name": "Šípek",
+                "context": "masc"
             },
             {
-                "firstName": "Šťavel",
-                "context": "male"
+                "name": "Šťavel",
+                "context": "masc"
             },
             {
-                "firstName": "Tis",
-                "context": "male"
+                "name": "Tis",
+                "context": "masc"
             },
             {
-                "firstName": "Vavřinec",
-                "context": "male"
+                "name": "Vavřinec",
+                "context": "masc"
             },
             {
-                "firstName": "Vilík",
-                "context": "male"
+                "name": "Vilík",
+                "context": "masc"
             },
             {
-                "firstName": "Višňa",
-                "context": "female"
+                "name": "Višňa",
+                "context": "fem"
             },
             {
-                "firstName": "Višňa",
-                "context": "male"
+                "name": "Višňa",
+                "context": "masc"
             },
             {
-                "firstName": "Vlnka",
-                "context": "female"
+                "name": "Vlnka",
+                "context": "fem"
             },
             {
-                "firstName": "Vrbena",
-                "context": "female"
+                "name": "Vrbena",
+                "context": "fem"
             },
             {
-                "firstName": "Vřesena",
-                "context": "female"
+                "name": "Vřesena",
+                "context": "fem"
             },
             {
-                "firstName": "Vřesík",
-                "context": "male"
+                "name": "Vřesík",
+                "context": "masc"
             },
             {
-                "firstName": "Zuzanka",
-                "context": "female"
+                "name": "Zuzanka",
+                "context": "fem"
             },
             {
-                "firstName": "Žitmil",
-                "context": "male"
+                "name": "Žitmil",
+                "context": "masc"
             }
         ],
         "familyNames": [
             {
-                "familyName_firstName=male": "Bílý",
-                "familyName_firstName=female": "Bílá"
+                "masc": "Bílý",
+                "fem": "Bílá"
             },
             {
-                "familyName_firstName=male": "Černý",
-                "familyName_firstName=female": "Černá"
+                "masc": "Černý",
+                "fem": "Černá"
             },
             {
-                "familyName_firstName=male": "Čihař",
-                "familyName_firstName=female": "Čihařová"
+                "masc": "Čihař",
+                "fem": "Čihařová"
             },
             {
-                "familyName_firstName=male": "Darček",
-                "familyName_firstName=female": "Darčeková"
+                "masc": "Darček",
+                "fem": "Darčeková"
             },
             {
-                "familyName_firstName=male": "Durman",
-                "familyName_firstName=female": "Durmanová"
+                "masc": "Durman",
+                "fem": "Durmanová"
             },
             {
-                "familyName_firstName=male": "Hrabal",
-                "familyName_firstName=female": "Hrabalová"
+                "masc": "Hrabal",
+                "fem": "Hrabalová"
             },
             {
-                "familyName_firstName=male": "Chalva",
-                "familyName_firstName=female": "Chalvová"
+                "masc": "Chalva",
+                "fem": "Chalvová"
             },
             {
-                "familyName_firstName=male": "Jařinka",
-                "familyName_firstName=female": "Jařinková"
+                "masc": "Jařinka",
+                "fem": "Jařinková"
             },
             {
-                "familyName_firstName=male": "Jeleňák",
-                "familyName_firstName=female": "Jeleňáková"
+                "masc": "Jeleňák",
+                "fem": "Jeleňáková"
             },
             {
-                "familyName_firstName=male": "Jeseň",
-                "familyName_firstName=female": "Jeseňová"
+                "masc": "Jeseň",
+                "fem": "Jeseňová"
             },
             {
-                "familyName_firstName=male": "Katzenreiser",
-                "familyName_firstName=female": "Katzenreiserová"
+                "masc": "Katzenreiser",
+                "fem": "Katzenreiserová"
             },
             {
-                "familyName_firstName=male": "Máselník",
-                "familyName_firstName=female": "Máselníková"
+                "masc": "Máselník",
+                "fem": "Máselníková"
             },
             {
-                "familyName_firstName=male": "Píp",
-                "familyName_firstName=female": "Pípová"
+                "masc": "Píp",
+                "fem": "Pípová"
             },
             {
-                "familyName_firstName=male": "Řešetlák",
-                "familyName_firstName=female": "Řešetláková"
+                "masc": "Řešetlák",
+                "fem": "Řešetláková"
             },
             {
-                "familyName_firstName=male": "Semínko",
-                "familyName_firstName=female": "Semínková"
+                "masc": "Semínko",
+                "fem": "Semínková"
             },
             {
-                "familyName_firstName=male": "Sníh",
-                "familyName_firstName=female": "Sněhová"
+                "masc": "Sníh",
+                "fem": "Sněhová"
             },
             {
-                "familyName_firstName=male": "Strážný",
-                "familyName_firstName=female": "Strážná"
+                "masc": "Strážný",
+                "fem": "Strážná"
             },
             {
-                "familyName_firstName=male": "Trnka",
-                "familyName_firstName=female": "Trnková"
+                "masc": "Trnka",
+                "fem": "Trnková"
             },
             {
-                "familyName_firstName=male": "Urobil",
-                "familyName_firstName=female": "Urobilová"
+                "masc": "Urobil",
+                "fem": "Urobilová"
             },
             {
-                "familyName_firstName=male": "Žvanil",
-                "familyName_firstName=female": "Žvanilová"
+                "masc": "Žvanil",
+                "fem": "Žvanilová"
             }
         ],
         "birthSigns": [
             {
                 "title": "Hvězda",
                 "disposition": {
-                    "disposition_firstName=male": "Statečný / zbrklý",
-                    "disposition": "Statečná / zbrklá"
+                    "masc": "Statečný / zbrklý",
+                    "fem": "Statečná / zbrklá"
                 }
             },
             {
                 "title": "Kolo",
                 "disposition": {
-                    "disposition_firstName=male": "Pracovitý / nenápaditý",
-                    "disposition": "Pracovitá / nenápaditá"
+                    "masc": "Pracovitý / nenápaditý",
+                    "fem": "Pracovitá / nenápaditá"
                 }
             },
             {
                 "title": "Žalud",
                 "disposition": {
-                    "disposition_firstName=male": "Zvědavý / paličatý",
-                    "disposition": "Zvědavá / paličatá"
+                    "masc": "Zvědavý / paličatý",
+                    "fem": "Zvědavá / paličatá"
                 }
             },
             {
                 "title": "Bouřka",
                 "disposition": {
-                    "disposition_firstName=male": "Štědrý / popudlivý",
-                    "disposition": "Štědrá / popudlivá"
+                    "masc": "Štědrý / popudlivý",
+                    "fem": "Štědrá / popudlivá"
                 }
             },
             {
                 "title": "Měsíc",
                 "disposition": {
-                    "disposition_firstName=male": "Moudrý / záhadný",
-                    "disposition": "Moudrá / záhadná"
+                    "masc": "Moudrý / záhadný",
+                    "fem": "Moudrá / záhadná"
                 }
             },
             {
                 "title": "Matka",
                 "disposition": {
-                    "disposition_firstName=male": "Pečující / ustaraný",
-                    "disposition": "Pečující / ustaraná"
+                    "masc": "Pečující / ustaraný",
+                    "fem": "Pečující / ustaraná"
                 }
             }
         ],
