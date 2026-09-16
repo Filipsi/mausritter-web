@@ -1,32 +1,44 @@
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
 
-import { pick, pickWithContext, rollDice, weightedPick } from '../generatorUtils';
+import { pick, rollDice, weightedPick, selectForm } from '../generatorUtils';
 
 import { ROOM_LAYOUTS } from './adventureSiteConstants';
 import {
     AdventureSite,
     AdventureSiteGeneratorData,
+    FormVariants,
+    Name,
+    NamedWithContext,
 } from './adventureSiteGeneratorTypes';
 
-const createAdventureSiteData = (
-    generatorData: AdventureSiteGeneratorData
+export const createAdventureSiteData = (
+    generatorData: AdventureSiteGeneratorData,
 ): AdventureSite => {
-    const context = new Map();
+    const name = createSiteName(generatorData);
 
-    const location = pickWithContext(generatorData.siteName.location, 'location', context);
-    const modifier = pickWithContext(generatorData.siteName.modifier, 'modifier', context);
-    const name = `${modifier} ${location}`;
+    const selectedConstruction = pick(generatorData.summary.construction);
+    const selectedRuinAction = pick(generatorData.summary.ruinAction);
+    const selectedInhabitant = pick(generatorData.summary.inhabitant);
+    const selectedInhabitantAction = pick(
+        generatorData.summary.inhabitantAction,
+    );
 
     const summary = {
-        construction: pickWithContext(generatorData.summary.construction, 'construction', context),
-        ruinAction: pickWithContext(generatorData.summary.ruinAction, 'ruinAction', context),
-        ruin: pickWithContext(generatorData.summary.ruin, 'ruin', context),
-        inhabitant: pickWithContext(generatorData.summary.inhabitant, 'inhabitant', context),
-        inhabitantAction: pickWithContext(generatorData.summary.inhabitantAction, 'inhabitantAction', context),
-        inhabitantGoal: pickWithContext(generatorData.summary.inhabitantGoal, 'inhabitantGoal', context),
-        secretHidden: pickWithContext(generatorData.summary.secretHidden, 'secretHidden', context),
-        secret: pickWithContext(generatorData.summary.secret, 'secret', context)
+        construction: getNameString(selectedConstruction),
+        ruinAction: selectForm(
+            selectedRuinAction,
+            getNameContext(selectedConstruction),
+        ),
+        ruin: pick(generatorData.summary.ruin),
+        inhabitant: getNameString(selectedInhabitant),
+        inhabitantAction: selectForm(
+            selectedInhabitantAction,
+            getNameContext(selectedInhabitant),
+        ),
+        inhabitantGoal: pick(generatorData.summary.inhabitantGoal),
+        secretHidden: pick(generatorData.summary.secretHidden),
+        secret: pick(generatorData.summary.secret),
     };
 
     const rooms = pick(ROOM_LAYOUTS).map((position) => {
@@ -51,10 +63,10 @@ const createAdventureSiteData = (
 };
 
 const useRollAdventureSite = (
-    generatorData: AdventureSiteGeneratorData
+    generatorData: AdventureSiteGeneratorData,
 ): [AdventureSite, () => void] => {
     const [adventureSite, setAdventureSite] = useState(
-        createAdventureSiteData(generatorData)
+        createAdventureSiteData(generatorData),
     );
 
     const rollAdventureSite = () => {
@@ -62,6 +74,47 @@ const useRollAdventureSite = (
     };
 
     return [adventureSite, rollAdventureSite];
+};
+
+const isStringArray = (arr: unknown): arr is string[] => {
+    return Array.isArray(arr) && typeof arr[0] === 'string';
+};
+
+const getNameString = (name: Name): string => {
+    if (typeof name === 'string') {
+        return name;
+    }
+    return name.name;
+};
+
+const getNameContext = (name: Name): string => {
+    if (typeof name === 'string') {
+        return '';
+    }
+    return name.context;
+};
+
+const createSiteName = (generatorData: AdventureSiteGeneratorData): string => {
+    const partBArray = generatorData.siteName.location;
+    const isSimpleFormat = isStringArray(partBArray);
+
+    if (isSimpleFormat) {
+        const partA = pick(generatorData.siteName.modifier as string[]) ?? '';
+        const partB = pick(partBArray) ?? '';
+        return `${partA} ${partB}`;
+    }
+
+    const partB = pick(partBArray) as NamedWithContext | undefined;
+    if (!partB) {
+        return '';
+    }
+
+    const { name: noun, context } = partB;
+    const pickedAdjective = pick(
+        generatorData.siteName.modifier as FormVariants[],
+    );
+    const adjective = selectForm(pickedAdjective, context);
+    return `${adjective} ${noun}`;
 };
 
 export default useRollAdventureSite;

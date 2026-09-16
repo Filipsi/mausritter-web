@@ -1,0 +1,50 @@
+name: Deploy Static Site
+on:
+    push:
+        # We only run this GitHub action upon new commits to `master`
+        branches:
+            - master
+        # We only run this GitHub action if there are changes in the `src/` or `pages/` directories
+        paths:
+            - src/**
+            - pages/**
+
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+        inputs:
+            deploy_branch:
+                description: 'Branch to deploy (default: master)'
+                required: false
+                default: 'master'
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: ${{ github.event.inputs.deploy_branch || github.ref_name }}
+            - name: Set up Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 23
+                  cache: 'npm'
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Build
+              run: npm run build
+
+            - name: Deploy
+              uses: JamesIves/github-pages-deploy-action@4.1.4
+              with:
+                  branch: gh-pages
+                  folder: dist/client
+                  # Remove previous build files
+                  clean: true
+                  # Do not remove the `.nojekyll` or `CNAME` files
+                  clean-exclude: |
+                      .nojekyll
+                      CNAME
+permissions:
+    contents: write

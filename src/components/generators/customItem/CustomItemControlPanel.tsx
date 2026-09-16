@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import { kebabCase } from 'lodash/fp';
+import { styled } from 'styled-components';
+import lodash from 'lodash/fp';
+const { kebabCase } = lodash;
 
 import media from '../../styles/media';
 
@@ -89,6 +90,12 @@ const StyledInputContainer = styled.label`
             font-size: 1rem;
         `}
     }
+
+    &.wide {
+        span {
+            min-width: 10rem;
+        }
+    }
 `;
 
 const FooterInputContainer = styled(StyledInputContainer)`
@@ -124,24 +131,67 @@ const CustomItemInput = ({
     itemState,
     dispatch,
     fieldType = 'text',
-}) => (
-    <StyledInputContainer>
-        <span>{title}:</span>
-        <input
-            type={fieldType}
-            value={itemState[fieldName]}
-            onChange={(event) =>
-                dispatch({
-                    type: `set-${kebabCase(fieldName)}`,
-                    [fieldName]: event.target.value,
-                })
-            }
-        />
-    </StyledInputContainer>
-);
+    min,
+    max,
+    step,
+}: {
+    fieldName: string;
+    title: string;
+    itemState: any;
+    dispatch: any;
+    fieldType?: string;
+    min?: number;
+    max?: number;
+    step?: number;
+}) => {
+    return (
+        <StyledInputContainer className="wide">
+            <span>{title}:</span>
+            <input
+                type={fieldType}
+                value={itemState[fieldName]}
+                onFocus={(event) => {
+                    if (fieldType === 'number') {
+                        event.currentTarget.select();
+                    }
+                }}
+                onChange={(event) => {
+                    if (fieldType === 'number') {
+                        event.currentTarget.select();
+                    }
 
-const CustomItemCheckboxInput = ({ fieldName, title, itemState, dispatch }) => (
-    <StyledInputContainer>
+                    if (!event.currentTarget.validity.valid) {
+                        event.currentTarget.value = itemState[fieldName];
+                        return;
+                    }
+
+                    dispatch({
+                        type: `set-${kebabCase(fieldName)}`,
+                        [fieldName]: event.currentTarget.value,
+                    });
+                }}
+                min={min}
+                max={max}
+                step={step}
+            />
+        </StyledInputContainer>
+    );
+};
+
+const CustomItemCheckboxInput = ({
+    fieldName,
+    title,
+    itemState,
+    className,
+    dispatch,
+}: {
+    fieldName: string;
+    title: string;
+    itemState: any;
+    className?: string;
+    dispatch: any;
+}) => (
+    <StyledInputContainer className={className}>
         <span>{title}:</span>
         <input
             type="checkbox"
@@ -255,6 +305,7 @@ const CustomItemControlPanel = ({
 
                     {selectedTemplate?.controls?.star && (
                         <CustomItemCheckboxInput
+                            className="wide"
                             itemState={itemState}
                             dispatch={dispatch}
                             title={t('star')}
@@ -263,7 +314,7 @@ const CustomItemControlPanel = ({
                     )}
 
                     {selectedTemplate?.controls?.image && (
-                        <StyledInputContainer>
+                        <StyledInputContainer className="wide">
                             <span>{t('image')}:</span>{' '}
                             <select
                                 value={itemState.image}
@@ -284,7 +335,7 @@ const CustomItemControlPanel = ({
                                             );
 
                                         const translatedName = t(
-                                            `cardImages.${name}`
+                                            `cardImages.${name}`,
                                         );
 
                                         return (
@@ -292,7 +343,7 @@ const CustomItemControlPanel = ({
                                                 {translatedName}
                                             </option>
                                         );
-                                    }
+                                    },
                                 )}
                             </select>
                         </StyledInputContainer>
@@ -320,6 +371,8 @@ const CustomItemControlPanel = ({
                         title={t('width')}
                         fieldName="width"
                         fieldType="number"
+                        min={1}
+                        max={5}
                     />
                     <CustomItemInput
                         itemState={itemState}
@@ -327,6 +380,8 @@ const CustomItemControlPanel = ({
                         title={t('height')}
                         fieldName="height"
                         fieldType="number"
+                        min={1}
+                        max={2}
                     />
 
                     <CustomItemInput

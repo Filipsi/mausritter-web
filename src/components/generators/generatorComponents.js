@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import { styled } from 'styled-components';
 
 import font from '../styles/font';
 import colors from '../styles/colors';
@@ -45,7 +45,7 @@ export const RollButton = styled.button`
     outline: none;
 
     &:hover {
-        background: yellow;
+        background: ${colors.highlight};
         color: black;
     }
 `;

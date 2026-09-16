@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { sum, times, drop, compact, isObject } from 'lodash/fp';
+import lodash from 'lodash/fp';
+const { sum, times, drop, compact } = lodash;
 import { nanoid } from 'nanoid';
 
-import { pick, pickWithContext, resolveWithContext, roll, rollDice } from '../generatorUtils';
+import { pick, roll, rollDice } from '../generatorUtils';
 
 import { MouseGeneratorData, MouseCharacter } from './mouseGeneratorTypes';
 
@@ -18,25 +19,21 @@ const rollCharacter = (generatorData: MouseGeneratorData): MouseCharacter => {
     const hp = rollHp();
     const pips = rollPips();
 
-    const context = new Map();
+    const name = `${pick(generatorData.firstNames)} ${pick(
+        generatorData.familyNames,
+    )}`;
 
-    const firstName = pickWithContext(generatorData.firstNames, 'firstName', context);
-    const familyName = pickWithContext(generatorData.familyNames, 'familyName', context);
-    const name = `${firstName} ${familyName}`;
-
-    const coatColor = pick(generatorData.coatColors);
-    const coatPattern = pick(generatorData.coatPatterns);
-    const coat = `${coatColor}, ${coatPattern}`;
+    const coat = `${pick(generatorData.coatColors)}, ${pick(
+        generatorData.coatPatterns,
+    )}`;
 
     const physicalDetail = pick(generatorData.physicalDetail);
     const birthsign = pick(generatorData.birthSigns);
-    const dispositionName = resolveWithContext(birthsign.disposition, "disposition", context);
 
-    const getBackground = (hp, pips) =>
+    const getBackground = (hp: number, pips: number) =>
         generatorData.backgrounds[(hp - 1) * 6 + (pips - 1)];
 
     const background = getBackground(hp, pips);
-    const backgroundName = resolveWithContext(background.title, "background", context);
 
     const consolationBackground = getBackground(rollHp(), rollPips());
 
@@ -47,10 +44,7 @@ const rollCharacter = (generatorData: MouseGeneratorData): MouseCharacter => {
         name,
         coat,
         physicalDetail,
-        birthsign: {
-            title: birthsign.title,
-            disposition: dispositionName
-        },
+        birthsign,
         stats: {
             str,
             dex,
@@ -58,10 +52,7 @@ const rollCharacter = (generatorData: MouseGeneratorData): MouseCharacter => {
         },
         hp,
         pips,
-        background: {
-            title: backgroundName,
-            items: background.items
-        },
+        background,
         items: compact([
             background.items[0],
             background.items[1],
@@ -73,7 +64,7 @@ const rollCharacter = (generatorData: MouseGeneratorData): MouseCharacter => {
 };
 
 const useRollMouse = (
-    generatorData: MouseGeneratorData
+    generatorData: MouseGeneratorData,
 ): [MouseCharacter, () => void] => {
     const [mouse, setMouse] = useState(rollCharacter(generatorData));
 
