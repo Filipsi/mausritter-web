@@ -1,15 +1,15 @@
 {
-    "title": "Jdeme prozkoumat...",
-    "pageTitle": "Generátor Dobrodružných Míst",
+    "title": "Vydáváme se prozkoumat...",
+    "pageTitle": "Generátor dobrodružných míst",
     "ui": {
         "rollButton": "Hoď znovu"
     },
     "labels": {
-        "creature": "Stvoření",
+        "creature": "Tvor",
         "treasure": "Poklad"
     },
     "other": {
-        "credits": "Ikony z <a href=\"https://game-icons.net/\">game-icons.net</a>. Truhlu vytvořil <a href=\"http://lorcblog.blogspot.com/\">Lorc</a>. Pavouka vytvořil <a href=\"https://twitter.com/unstoppableCarl\">Carl Olsen</a>. Překlad do českého jazyka <a href=\"https://github.com/Filipsi\">Filipsi</a>."
+        "credits": "Ikony z <a href=\"https://game-icons.net/\">game-icons.net</a>. Truhlu vytvořil <a href=\"http://lorcblog.blogspot.com/\">Lorc</a>. Pavouka vytvořil <a href=\"https://twitter.com/unstoppableCarl\">Carl Olsen</a>. Do češtiny přeložil <a href=\"https://github.com/Filipsi\">Filipsi</a>."
     },
     "data": {
         "siteName": {
@@ -35,9 +35,9 @@
                     "neut": "Modré"
                 },
                 {
-                    "masc": "Červený",
-                    "fem": "Červená",
-                    "neut": "Červené"
+                    "masc": "Rudý",
+                    "fem": "Rudá",
+                    "neut": "Rudé"
                 },
                 {
                     "masc": "Onyxový",
@@ -60,9 +60,9 @@
                     "neut": "Skryté"
                 },
                 {
-                    "masc": "Zuhelnatělý",
-                    "fem": "Zuhelnatělá",
-                    "neut": "Zuhelnatělé"
+                    "masc": "Ohořelý",
+                    "fem": "Ohořelá",
+                    "neut": "Ohořelé"
                 },
                 {
                     "masc": "Spálený",
@@ -75,9 +75,9 @@
                     "neut": "Ztracené"
                 },
                 {
-                    "masc": "Starý",
-                    "fem": "Stará",
-                    "neut": "Staré"
+                    "masc": "Zbořený",
+                    "fem": "Zbořená",
+                    "neut": "Zbořené"
                 },
                 {
                     "masc": "Zlatý",
@@ -90,14 +90,14 @@
                     "neut": "Krvavé"
                 },
                 {
-                    "masc": "Vdoví",
-                    "fem": "Vdoví",
-                    "neut": "Vdoví"
+                    "masc": "Vdovin",
+                    "fem": "Vdovina",
+                    "neut": "Vdovino"
                 },
                 {
-                    "masc": "Zarostlý",
-                    "fem": "Zarostlá",
-                    "neut": "Zarostlé"
+                    "masc": "Břečťanový",
+                    "fem": "Břečťanová",
+                    "neut": "Břečťanové"
                 },
                 {
                     "masc": "Kostěný",
@@ -105,14 +105,14 @@
                     "neut": "Kostěné"
                 },
                 {
-                    "masc": "Suchý",
-                    "fem": "Suchá",
-                    "neut": "Suché"
+                    "masc": "Vyschlý",
+                    "fem": "Vyschlá",
+                    "neut": "Vyschlé"
                 },
                 {
-                    "masc": "Promočený",
-                    "fem": "Promočená",
-                    "neut": "Promočené"
+                    "masc": "Promáčený",
+                    "fem": "Promáčená",
+                    "neut": "Promáčené"
                 }
             ],
             "location": [
@@ -141,11 +141,7 @@
                     "context": "fem"
                 },
                 {
-                    "name": "Věž",
-                    "context": "fem"
-                },
-                {
-                    "name": "Příkop",
+                    "name": "Val",
                     "context": "masc"
                 },
                 {
@@ -154,6 +150,10 @@
                 },
                 {
                     "name": "Pevnost",
+                    "context": "fem"
+                },
+                {
+                    "name": "Tvrz",
                     "context": "fem"
                 },
                 {
@@ -169,6 +169,10 @@
                     "context": "fem"
                 },
                 {
+                    "name": "Kobka",
+                    "context": "fem"
+                },
+                {
                     "name": "Krypta",
                     "context": "fem"
                 },
@@ -181,16 +185,16 @@
                     "context": "neut"
                 },
                 {
-                    "name": "Nora",
-                    "context": "fem"
-                },
-                {
                     "name": "Brloh",
                     "context": "masc"
                 },
                 {
-                    "name": "Tunel",
+                    "name": "Pelech",
                     "context": "masc"
+                },
+                {
+                    "name": "Nora",
+                    "context": "fem"
                 },
                 {
                     "name": "Díra",
@@ -205,7 +209,7 @@
                     "context": "fem"
                 },
                 {
-                    "name": "Přístřešek",
+                    "name": "Úkryt",
                     "context": "masc"
                 },
                 {
@@ -223,54 +227,54 @@
             ]
         },
         "summary": {
-            "format": " - {{- construction}} {{- ruinAction}} {{- ruin}}. {{- inhabitant}} {{- inhabitantAction}} {{- inhabitantGoal}}. {{- secretHidden}} {{- secret}}.",
+            "format": " – kdysi {{- construction}}, {{- ruinAction}} {{- ruin}}. {{- inhabitant}} {{- inhabitantAction}} {{- inhabitantGoal}}. {{- secretHidden}} {{- secret}}.",
             "construction": [
                 {
-                    "name": "<b>starověký chrám</b> netopýřího kultu",
+                    "name": "<b>starobylý chrám netopýřího kultu</b>",
                     "context": "masc"
                 },
                 {
-                    "name": "dlouho opuštěná <b>strážní věž</b>",
+                    "name": "<b>dávno opuštěná strážní věž</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "šlechticův <b>venkovský statek</b>",
-                    "context": "masc"
-                },
-                {
-                    "name": "tajný <b>sklad zásob na zimu</b>",
-                    "context": "masc"
-                },
-                {
-                    "name": "starověké <b>myší pohřebiště</b>",
+                    "name": "<b>venkovské sídlo myšího šlechtice</b>",
                     "context": "neut"
                 },
                 {
-                    "name": "<b>nora</b> vykopaná králíky nebo liškami",
-                    "context": "fem"
-                },
-                {
-                    "name": "<b>lidský dům</b> nebo jiná budova",
-                    "context": "fem"
-                },
-                {
-                    "name": "série kanalizačních nebo drenážních <b>trubek</b>",
-                    "context": "fem"
-                },
-                {
-                    "name": "série klaustrofobních <b>tunelů</b> vykopaných mravenci",
-                    "context": "fem"
-                },
-                {
-                    "name": "<b>mohutný strom</b> vydlabaný myšmi",
+                    "name": "<b>tajný sklad zimních zásob</b>",
                     "context": "masc"
                 },
                 {
-                    "name": "<b>kouzelnická věž</b>",
+                    "name": "<b>pohřebiště dávných myší</b>",
+                    "context": "neut"
+                },
+                {
+                    "name": "<b>nora vyhrabaná králíky nebo liškami</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "<b>mlýn na obilí</b> nedaleké osady",
+                    "name": "<b>lidský dům nebo jiná stavba</b>",
+                    "context": "masc"
+                },
+                {
+                    "name": "<b>spleť kanalizačních nebo odvodňovacích trubek</b>",
+                    "context": "fem"
+                },
+                {
+                    "name": "<b>spleť stísněných tunelů vyhrabaných mravenci</b>",
+                    "context": "fem"
+                },
+                {
+                    "name": "<b>mohutný strom vydlabaný myšmi</b>",
+                    "context": "masc"
+                },
+                {
+                    "name": "<b>čarodějova věž</b>",
+                    "context": "fem"
+                },
+                {
+                    "name": "<b>obilný mlýn nedaleké osady</b>",
                     "context": "masc"
                 },
                 {
@@ -278,48 +282,40 @@
                     "context": "neut"
                 },
                 {
-                    "name": "<b>kostra</b> velkého zvířete",
+                    "name": "<b>kostra obrovské šelmy</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "čarodějnická <b>akademie</b>",
+                    "name": "<b>čarodějnická akademie</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "<b>brána</b> do říše víl",
+                    "name": "<b>brána do říše víl</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "hluboký <b>důl</b>",
+                    "name": "<b>hluboký důl</b>",
                     "context": "masc"
                 },
                 {
-                    "name": "<b>úkryt</b> banditů",
+                    "name": "<b>úkryt banditů</b>",
                     "context": "masc"
                 },
                 {
-                    "name": "přírodní <b>jeskyně</b>",
+                    "name": "<b>přírodní jeskyně</b>",
                     "context": "fem"
                 },
                 {
-                    "name": "myší <b>osada</b>",
+                    "name": "<b>myší osada</b>",
                     "context": "fem"
                 }
             ],
             "ruinAction": [
                 {
                     "name": {
-                        "masc": "zničen",
-                        "fem": "zničena",
-                        "neut": "zničeno"
-                    },
-                    "context": "damage"
-                },
-                {
-                    "name": {
-                        "masc": "zdevastován",
-                        "fem": "zdevastovaná",
-                        "neut": "zdevastované"
+                        "masc": "zničený",
+                        "fem": "zničená",
+                        "neut": "zničené"
                     },
                     "context": "damage"
                 },
@@ -329,43 +325,31 @@
                 },
                 {
                     "name": {
-                        "masc": "znesvěcen",
-                        "fem": "znesvěcena",
+                        "masc": "znesvěcený",
+                        "fem": "znesvěcená",
                         "neut": "znesvěcené"
                     },
                     "context": "damage"
                 },
                 {
-                    "name": {
-                        "masc": "nechaný na pospas živlům",
-                        "fem": "nechaná na pospas živlům",
-                        "neut": "necháno na pospas živlům"
-                    },
+                    "name": "rozpadající se",
                     "context": "because"
                 },
                 {
                     "name": {
-                        "masc": "jenž málem zanikl",
-                        "fem": "jenž málem zanikla",
-                        "neut": "jenž málem zaniklo"
-                    },
-                    "context": "because"
-                },
-                {
-                    "name": {
-                        "masc": "skoro zničen",
-                        "fem": "skoro zničená",
-                        "neut": "skoro zničeno"
+                        "masc": "téměř zničený",
+                        "fem": "téměř zničená",
+                        "neut": "téměř zničené"
                     },
                     "context": "damage"
                 },
                 {
                     "name": {
-                        "masc": "poškozen",
-                        "fem": "poškozena",
-                        "neut": "poškozeno"
+                        "masc": "zchátralý",
+                        "fem": "zchátralá",
+                        "neut": "zchátralé"
                     },
-                    "context": "damage"
+                    "context": "because"
                 }
             ],
             "ruin": [
@@ -374,89 +358,89 @@
                     "because": "kvůli <b>záplavám</b>"
                 },
                 {
-                    "damage": "<b>magickým neštěstím</b>",
-                    "because": "díky <b>magickému neštěstí</b>"
+                    "damage": "<b>magickou nehodou</b>",
+                    "because": "kvůli <b>magické nehodě</b>"
                 },
                 {
-                    "damage": "<b>stářím</b> a <b>hnilobou</b>",
-                    "because": "kvůli <b>stáří</b> a <b>hnilobě</b>"
+                    "damage": "<b>stářím a hnilobou</b>",
+                    "because": "kvůli <b>stáří a hnilobě</b>"
                 },
                 {
-                    "damage": "<b>lidskou činností</b>",
-                    "because": "kvůli <b>lidské činnosti</b>"
+                    "damage": "<b>řáděním lidí</b>",
+                    "because": "kvůli <b>řádění lidí</b>"
                 },
                 {
                     "damage": "<b>plísní</b>",
                     "because": "kvůli <b>plísni</b>"
                 },
                 {
-                    "damage": "<b>přesunem mezi sférami</b>",
-                    "because": "kvůli <b>přesunu mezi sférami</b>"
+                    "damage": "<b>posunem mezi sférami</b>",
+                    "because": "kvůli <b>posunu mezi sférami</b>"
                 },
                 {
-                    "damage": "<b>útokem</b> velké šelmy",
-                    "because": "kvůli <b>útoku</b> velké šelmy"
+                    "damage": "<b>útoky velké šelmy</b>",
+                    "because": "kvůli <b>útokům velké šelmy</b>"
                 },
                 {
-                    "damage": "ničivou <b>bouří</b>",
-                    "because": "kvůli ničivé <b>bouři</b>"
+                    "damage": "<b>ničivou bouří</b>",
+                    "because": "kvůli <b>ničivé bouři</b>"
                 },
                 {
-                    "damage": "<b>strašidelnými duchy</b>",
-                    "because": "kvůli <b>strašidelným duchům</b>"
+                    "damage": "<b>neklidnými duchy</b>",
+                    "because": "kvůli <b>neklidným duchům</b>"
                 },
                 {
-                    "damage": "při záhadném <b>odchodu obyvatel</b>",
-                    "because": "kvůli záhadnému <b>odchodu obyvatel</b>"
+                    "damage": "<b>záhadným odchodem obyvatel</b>",
+                    "because": "kvůli <b>záhadnému odchodu obyvatel</b>"
                 },
                 {
-                    "damage": "při <b>sporech mezi obyvateli</b>",
-                    "because": "kvůli <b>sporům mezi obyvateli</b>"
+                    "damage": "<b>vnitřními rozbroji</b>",
+                    "because": "kvůli <b>vnitřním rozbrojům</b>"
                 },
                 {
-                    "damage": "<b>nemocnými obyvateli</b>",
-                    "because": "kvůli <b>šířící se chorobě</b>"
+                    "damage": "<b>nemocí</b>",
+                    "because": "kvůli <b>nemoci</b>"
                 }
             ],
             "inhabitant": [
                 {
-                    "name": "Šílené nebo zoufalé myši",
+                    "name": "<b>Myši dohnané k šílenství nebo zoufalství</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Magicky změněné myši",
+                    "name": "<b>Magicky pozměněné myši</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Krysí bandité",
+                    "name": "<b>Krysí bandité</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Bytosti ze vzdálené země",
+                    "name": "<b>Tvorové z daleké země</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Podivně změnění původní obyvatelé",
+                    "name": "<b>Podivně zkroucení původní obyvatelé</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Přízrační duchové",
+                    "name": "<b>Přízrační duchové</b>",
                     "context": "plural"
                 },
                 {
-                    "name": "Předsunutá vílí hlídka",
-                    "context": "plural"
-                },
-                {
-                    "name": "Had ve špatné náladě",
+                    "name": "<b>Vílí předvoj</b>",
                     "context": "masc"
                 },
                 {
-                    "name": "Hmyzí zamoření",
-                    "context": "neut"
+                    "name": "<b>Nevrlý had</b>",
+                    "context": "masc"
                 },
                 {
-                    "name": "Kočičí pán a jeho služebníci",
+                    "name": "<b>Hmyzí roj</b>",
+                    "context": "masc"
+                },
+                {
+                    "name": "<b>Kočičí pán a jeho služebníci</b>",
                     "context": "plural"
                 }
             ],
@@ -467,67 +451,77 @@
                     "neut": "tu hledá",
                     "plural": "tu hledají"
                 },
-                "tu chrání",
                 {
-                    "masc": "tu hlídá",
-                    "fem": "tu hlídá",
-                    "neut": "tu hlídá",
-                    "plural": "tu hlídají"
+                    "masc": "tu chrání",
+                    "fem": "tu chrání",
+                    "neut": "tu chrání",
+                    "plural": "tu chrání"
                 },
-                "se tu snaží najít"
+                {
+                    "masc": "tu střeží",
+                    "fem": "tu střeží",
+                    "neut": "tu střeží",
+                    "plural": "tu střeží"
+                },
+                {
+                    "masc": "tu shání",
+                    "fem": "tu shání",
+                    "neut": "tu shání",
+                    "plural": "tu shánějí"
+                }
             ],
             "inhabitantGoal": [
-                "<b>bezpečné místo</b> k životu nebo úkrytu",
-                "<b>skrýš</b> dobrého jídla",
-                "<b>ztracenou</b> rodinu nebo přítele",
-                "cenná starověká <b>umělecká díla</b>",
-                "poslední <b>cennosti</b> v prohrabané ruině",
-                "vzácné <b>alchymistické houby</b>",
-                "zvláštní a mocné <b>kouzlo</b>",
-                "obrovskou hordu <b>ďobek</b>"
+                "<b>bezpečné místo k životu nebo úkrytu</b>",
+                "<b>tajnou zásobu dobrého jídla</b>",
+                "<b>ztraceného příbuzného nebo přítele</b>",
+                "<b>starobylá a cenná umělecká díla</b>",
+                "<b>poslední zbytky cenností ve vypleněné ruině</b>",
+                "<b>vzácné alchymistické houby</b>",
+                "<b>zvláštní a mocné kouzlo</b>",
+                "<b>obrovskou hromadu ďobek</b>"
             ],
             "secretHidden": [
-                "Hluboko uvnitř je",
-                "V zapomenutém koutu je",
-                "Nikdo si už nepamatuje, kde je",
-                "Pod zemí je"
+                "Hluboko uvnitř se skrývá",
+                "Kdesi v ústraní se ukrývá",
+                "Nikdo netuší, že je tu",
+                "Pod zemí leží"
             ],
             "secret": [
-                "<b>monolit</b> šumící tajemnou energií",
-                "zachovalá <b>prapůvodní šelma</b>",
-                "možné najít známky <b>lidských</b> experimentů",
-                "<b>hrob</b> starověké královny",
-                "cesta do <b>žil země</b>",
-                "<b>portál</b> do říše víl"
+                "<b>monolit hučící tajemnou energií</b>",
+                "<b>zachovalá pradávná šelma</b>",
+                "<b>známky lidských poskusů</b>",
+                "<b>zapomenutý hrob dávné královny</b>",
+                "<b>cesta do žil země</b>",
+                "<b>portál do říše víl</b>"
             ]
         },
         "roomTypes": [
             {
-                "typeName": "Prázdno",
+                "typeName": "Prázdná",
                 "weight": 2,
                 "creatureChance": 3,
                 "treasureChance": 1,
                 "descriptions": [
-                    "Opuštěné hnízdo hmyzu",
-                    "Shluk hub",
-                    "Zhroucená stěna nebo strop",
-                    "Suché skořápky brouků na stěnách",
-                    "Nábytek vyrobený z hrampádí",
+                    "Opuštěné hmyzí hnízdo",
+                    "Trs hub",
+                    "Zřícená stěna nebo strop",
+                    "Vyschlé krovky brouků na stěnách",
+                    "Nábytek sestavený z odpadků",
                     "Obrovská kresba netopýří tváře na zdi",
-                    "Rozházené stoly a židle",
-                    "Tapeta z novinových výstřižků",
+                    "Změť stolů a židlí",
+                    "Stěny polepené novinovými výstřižky",
                     "Zarostlé mechem",
-                    "Nástěnná malba, nyní vybledlá",
-                    "Plošiny visící nad rychle tekoucí vodou",
-                    "Kořeny rostoucí ze zdí/podlahy/stropu",
+                    "Vybledlá nástěnná malba",
+                    "Plošiny visící nad prudce tekoucí vodou",
+                    "Kořeny prorůstající stěnami, podlahou i stropem",
                     "Hnijící hromada žaludů",
                     "Rozházené zvířecí zuby",
-                    "Lesklé obaly od bonbónů",
-                    "Dveře z hadí lebky",
-                    "Voda neustále kape ze stropu",
-                    "Nevlídná socha starověké myši",
-                    "Nerovná a hluboce popraskaná podlaha",
-                    "Bílý křemenný oltář"
+                    "Lesklé praporky z obalů od bonbonů",
+                    "Vchod z hadí lebky",
+                    "Ze stropu vytrvale kape voda",
+                    "Přísná socha dávné myši",
+                    "Nerovná, popraskaná podlaha",
+                    "Oltář z bílého křemene"
                 ]
             },
             {
@@ -536,14 +530,14 @@
                 "creatureChance": 2,
                 "treasureChance": 1,
                 "descriptions": [
-                    "Zamčené dveře. Klíč najdete v jiné místnosti. Vykopnutí dveří bude nějakou dobru trvat a možná to někdo uslyší.",
-                    "Strmé stoupání. Bez speciálního vybavení hrozí myším vyčerpání nebo pád.",
-                    "Pokoj s východem uprostřed stropu, 15 cm od jakékoli stěny.",
-                    "Zařízení, ze kterého je slyšet nepříjemně vysoký tón. Každý tah strávený zde nebo v sousedních místnostech způsobí stav Vystrašení.",
-                    "Zřícená část tunelu s příliš malým průlezem.",
-                    "Tunel zcela zaplněný vodou.",
-                    "Široká louže bahna blokující cestu. Po ujití 15 cm způsobí stav Vyčerpání ",
-                    "Dlouhá trubka z kovu nebo platu stočená nahoru."
+                    "Zamčené dveře. Klíč se nachází v jiné místnosti. Vyražení dveří zabere čas a nadělá hluk.",
+                    "Strmý výstup. Bez zvláštního vybavení hrozí myším vyčerpání nebo pád.",
+                    "Místnost, jejíž jediný východ je uprostřed stropu, 15 cm daleko od každé stěny.",
+                    "Zařízení vydávající pronikavý vysoký jekot. Každý tah strávený zde nebo v sousedních místnostech způsobí stav Vystrašení.",
+                    "Zavalený úsek tunelu. Mezera je příliš úzká na to, aby se jí dalo prolézt.",
+                    "Tunel zcela zatopený vodou.",
+                    "Široká a hluboká louže bahna blokující cestu. Každých 15 cm brodění způsobí stav Vyčerpání.",
+                    "Dlouhá hladká trubka z kovu nebo plastu stoupající vzhůru."
                 ]
             },
             {
@@ -552,14 +546,14 @@
                 "creatureChance": 1,
                 "treasureChance": 2,
                 "descriptions": [
-                    "Velké kamenné dveře povolené z rámu. Zařízení za nimi je při otočení klikou nakloní dopředu.",
-                    "Dlouhá chodba zaplavená vodou, elektrifikovaná velkou baterií skrytou ve výklenku.",
-                    "Temná místnost plná výbušného plynu. Výrazná vůně zkažených vajec. Způsobí k20 poškození při vznícení.",
-                    "Tenká nit natažená přes smrtící propast. Bezpečné, pokud cestujete pomalu, jeden po druhém.",
-                    "Jáma blokující cestu. Na dně spí had.",
-                    "Dveře se třemi klikami ve tvaru hřibů, jedna je bezpečná, ostatní jsou jedovaté. Jedovatá rukojet způsobí k12 magického poškození.",
-                    "Kruh kouzelných hub s mladou myškou uvnitř. Ti uvnitř kruhu se zoufale snaží přimět ostatní, aby vstoupili.",
-                    "Podlaha je pokryta lepidlem. K uvolnění nohy je potřeba provést záchranu na sílu."
+                    "Velké kamenné dveře uvolněné z rámu. Při otočení klikou je mechanismus za nimi převrhne dopředu.",
+                    "Dlouhá chodba zatopená vodou, do níž pouští proud velká baterie ukrytá ve výklenku.",
+                    "Temná místnost plná jedovatého výbušného plynu. Výrazný zápach zkažených vajec. Při vznícení způsobí k20 zranění.",
+                    "Tenká nit natažená nad smrtící propastí. Bezpečná, pokud se po ní přejde pomalu a po jednom.",
+                    "Jáma blokující cestu. Na jejím dně spí had.",
+                    "Dveře se třemi klikami ve tvaru hub. Jedna je bezpečná, ostatní jedovaté. Jedovatá klika způsobí k12 magického zranění.",
+                    "Kruh začarovaných hub, uvnitř mladá myš. Kdo je uvnitř, zoufale přemlouvá ostatní, aby vstoupili.",
+                    "Podlaha pokrytá lepidlem. K uvolnění nohy je třeba záchranný hod na Sílu."
                 ]
             },
             {
@@ -568,12 +562,12 @@
                 "creatureChance": 1,
                 "treasureChance": 5,
                 "descriptions": [
-                    "Místnost s podlahou z elektrifikované měděné desky. Uprostřed je kousek cenného pokladu.",
-                    "Tři kojenecké lahve s různobarevnou tekutinou uvnitř. Samotné jsou inertní, ale smíchaný koncentrát je nebezpečný.",
-                    "Kouzelný meč zapuštěný v průhledném krystalu. Je sice velmi tvrdý, ale rozpustí se v žaludeční kyselině.",
+                    "Místnost s podlahou z měděné desky pod proudem. Uprostřed leží cenný poklad.",
+                    "Tři kojenecké láhve s různobarevnými tekutinami. Každá je sama o sobě neškodná, ale smíchané jsou mocné a nebezpečné.",
+                    "V krystalu je zatavený kouzelný meč. Krystal je velmi tvrdý, ale rozpustí se v žaludeční kyselině.",
                     "Poklad na dně hluboké studny.",
-                    "Velká hladká ocelová mísa, dnem vzhůru. Poklad nalepený na vnitřním stropě mísy.",
-                    "Past na myši s návnadou. Mechanizmus je spojen s kameny ve zdi a při aktivaci zhroutí chodbou."
+                    "Velká hladká ocelová mísa převrácená dnem vzhůru. Poklad je přilepený k jejímu dnu.",
+                    "Past na myši s návnadou. Páčka je napojená na kámen ve zdi a při spuštění zřítí chodbu."
                 ]
             },
             {
@@ -583,11 +577,11 @@
                 "treasureChance": 4,
                 "descriptions": [
                     "Dočasné tábořiště",
-                    "Nedávno patřilo jinému tvorovi",
-                    "Postaveno myšmi, k uvěznění tvora",
-                    "Střeží mladé",
-                    "Trvalý domov, nově zabydlený",
-                    "Trvalý domov, komfortně zařízený"
+                    "Ještě nedávno patřilo jinému tvorovi",
+                    "Postaveno myšmi, aby tvora uvěznily",
+                    "Tvor tu chrání svá mláďata",
+                    "Trvalý domov, čerstvě zaydlený",
+                    "Trvalý domov, pohodlně zařízený"
                 ]
             }
         ]
